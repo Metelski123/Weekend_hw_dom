@@ -1,0 +1,170 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    color: #ffffff;
+    background-image: linear-gradient(to right, black, rgb(36, 33, 33));;
+}
+
+body > header {
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    margin: 0px;
+    padding: 0.2rem;
+}
+
+body > header > h1{
+    padding: 30px;
+    letter-spacing: .7rem;
+    margin: 0px;
+}
+
+body > main {
+    background-color: black;
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+}
+
+.large-img{
+    height: 50vh;
+    width: 50vw;
+}
+
+.colour-block {
+    background-color: #d19920;
+    height: 20px;
+    margin: 0px;
+}
+
+#new-mission-form {
+    display: block;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    width: 50vw;
+    line-height: 20pt;
+    margin: 2.5rem auto;
+
+    font-weight: 600;
+    font-size: 16pt;
+}
+
+#name, #date, #planet {
+    background-color:  #c5c5c5;
+    border: none;
+    border-bottom: 2px solid #0f3057;
+    border-radius: 5px;
+    color: black;
+    width: 10vw;
+    padding: 12px 20px;
+    margin: 10px;
+    vertical-align: middle;
+    align-items: center;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+  }
+
+.save-button {
+    display: block;
+    background-color: #0f3057;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.5px;
+
+    width: 100px;
+    height: 5px;
+
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px auto;
+
+    font-size: 14pt;
+    font-weight: 400;  
+}
+
+
+#mission-list {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mission-item {
+    display: block;
+    border-color: yellow;
+    border-style: dotted;
+    border-width: thick;
+
+    align-items: center;
+    margin: auto;
+    height: 20vh;
+    width: 20vw;
+    padding: 0.5rem;
+
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: .2rem;
+}
+
+.mission-item:hover{
+    background-color: #d19920;
+}
+
+#delete-all {
+    display: block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.5px;
+
+    width: 100px;
+    height: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 40px auto;
+
+    font-size: 14pt;
+    font-weight: 400;  
+
+}
+
+.img-block {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.planet-img {
+    height: 250px;
+    width: 25%;
+    margin: 20px 10px 0px 10px;
+}
+
+body > footer {
+    color: #ffffff;
+    padding: 30px;
+
+    text-align: center;
+    align-items: center;    
+}
